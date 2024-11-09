@@ -1,14 +1,15 @@
-This is a Kotlin Multiplatform project targeting Android, iOS.
+# KMP Weather App
+### 0. 소개
+- Weather 앱을 KMP로 개발한 프로젝트입니다.
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+### 1. 사용기술
+- Kotlin Multiplatform
+- Compose Multiplatform
+- Kotlin 2.0.21
+- Ktor 3.0.1
+- Koin 4.0.0
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+### 2. 사진
+<img width="998" alt="image" src="https://github.com/user-attachments/assets/ce2e6ead-aa46-4877-9699-79ef4d985b4a">
 
-
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
+<img width="983" alt="image" src="https://github.com/user-attachments/assets/988d040b-8bb5-428a-9633-45efd1d0dbaa">
