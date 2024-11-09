@@ -1,8 +1,6 @@
 package com.kmp.weather.utils
 
-import androidx.compose.ui.text.intl.Locale
-import com.kmp.weather.domain.WeatherInfoDto
-import io.ktor.http.HttpHeaders.Date
+import com.kmp.weather.domain.dto.WeatherInfoDto
 import kotlinx.datetime.Clock
 import kotlinx.datetime.Instant
 import kotlinx.datetime.LocalDateTime

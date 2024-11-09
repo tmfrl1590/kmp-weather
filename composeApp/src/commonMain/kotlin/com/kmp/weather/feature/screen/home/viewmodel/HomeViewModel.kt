@@ -2,7 +2,7 @@ package com.kmp.weather.feature.screen.home.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.kmp.weather.domain.WeatherRemoteDto
+import com.kmp.weather.domain.dto.WeatherRemoteDto
 import com.kmp.weather.domain.repository.WeatherRepository
 import com.kmp.weather.utils.UIState
 import kotlinx.coroutines.Dispatchers

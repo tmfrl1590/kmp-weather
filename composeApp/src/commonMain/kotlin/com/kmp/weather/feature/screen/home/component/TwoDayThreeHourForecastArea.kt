@@ -22,7 +22,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.kmp.weather.domain.WeatherInfoDto
+import com.kmp.weather.domain.dto.WeatherInfoDto
 import com.kmp.weather.feature.shared.CommonText
 import com.kmp.weather.ui.COMPONENT_BACKGROUND
 import com.kmp.weather.utils.convertToCelsiusFromKelvin

@@ -1,4 +1,4 @@
-package com.kmp.weather.domain
+package com.kmp.weather.domain.dto
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

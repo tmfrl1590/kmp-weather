@@ -1,6 +1,6 @@
 package com.kmp.weather.data.repository
 
-import com.kmp.weather.domain.WeatherRemoteDto
+import com.kmp.weather.domain.dto.WeatherRemoteDto
 import com.kmp.weather.domain.repository.WeatherRepository
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body

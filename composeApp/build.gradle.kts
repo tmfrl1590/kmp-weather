@@ -35,6 +35,7 @@ kotlin {
             implementation(libs.androidx.activity.compose)
             implementation(libs.ktor.client.okhttp)
             implementation(libs.koin.android)
+            implementation(libs.koin.androidx.compose)
         }
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -48,13 +49,12 @@ kotlin {
 
             implementation(libs.compose.navigation)
 
-            implementation(libs.ktor.network)
-            implementation(libs.ktor.networkTLS)
-            implementation(libs.ktor.client.cio)
-            implementation(libs.ktor.json)
-            implementation(libs.ktor.logging)
-            implementation(libs.ktor.negotiation)
+            implementation(libs.ktor.client.core)
+            implementation(libs.ktor.client.negotiation)
+            implementation(libs.ktor.client.json)
+            implementation(libs.ktor.client.logging)
             implementation(libs.kotlinx.serialization.json)
+            //implementation(libs.ktor.client.cio) // 이걸 추가하면 failed with exception: kotlin.IllegalStateException: TLS sessions are not supported on Native platform.
 
             implementation(libs.koin.core)
             implementation(libs.koin.compose)
@@ -64,6 +64,7 @@ kotlin {
             implementation(libs.coil3)
 
             implementation(libs.kotlinx.datetime)
+            implementation(libs.kotlinx.coroutines)
         }
 
 

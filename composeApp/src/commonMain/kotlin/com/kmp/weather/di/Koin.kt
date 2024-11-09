@@ -54,11 +54,6 @@ val ktorModule = module {
                 logger = Logger.DEFAULT
                 level = LogLevel.ALL
             }
-           /* install(HttpTimeout) {
-                requestTimeoutMillis = 10000 // 요청 시간 초과 설정
-                connectTimeoutMillis = 5000 // 연결 시간 초과 설정
-                socketTimeoutMillis = 15000 // 소켓 시간 초과 설정
-            }*/
         }
     }
 }

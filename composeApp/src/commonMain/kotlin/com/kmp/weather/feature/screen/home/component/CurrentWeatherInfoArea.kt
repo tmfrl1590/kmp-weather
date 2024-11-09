@@ -13,8 +13,8 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.kmp.weather.domain.WeatherRemoteDto
 import com.kmp.weather.domain.dto.CityModel
+import com.kmp.weather.domain.dto.WeatherRemoteDto
 import com.kmp.weather.feature.shared.CommonText
 import com.kmp.weather.utils.convertTempToText
 import com.kmp.weather.utils.convertToCelsiusFromKelvin

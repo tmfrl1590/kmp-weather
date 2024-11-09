@@ -1,6 +1,6 @@
 package com.kmp.weather.domain.repository
 
-import com.kmp.weather.domain.WeatherRemoteDto
+import com.kmp.weather.domain.dto.WeatherRemoteDto
 
 interface WeatherRepository {
 
