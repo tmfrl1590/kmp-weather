@@ -3,9 +3,9 @@ package com.kmp.weather.di
 import com.kmp.weather.data.repository.WeatherRepositoryImpl
 import com.kmp.weather.domain.repository.WeatherRepository
 import com.kmp.weather.feature.screen.home.viewmodel.HomeViewModel
+import com.kmp.weather.feature.screen.search.viewmodel.SearchViewModel
 import com.kmp.weather.feature.shared.SharedViewModel
 import io.ktor.client.HttpClient
-import io.ktor.client.engine.cio.CIO
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.client.plugins.logging.DEFAULT
 import io.ktor.client.plugins.logging.LogLevel
@@ -29,6 +29,7 @@ fun initKoin() {
 
 val viewModelModules = module {
     factory { HomeViewModel(weatherRepository = get()) }
+    factory { SearchViewModel() }
     factory { SharedViewModel() }
 }
 
