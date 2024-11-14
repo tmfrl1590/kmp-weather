@@ -6,8 +6,8 @@ android-targetSdk = "34"
 
 androidx-activityCompose = "1.9.3"
 androidx-appcompat = "1.7.0"
-androidx-constraintlayout = "2.1.4"
-androidx-core-ktx = "1.13.1"
+androidx-constraintlayout = "2.2.0"
+androidx-core-ktx = "1.15.0"
 androidx-espresso-core = "3.6.1"
 
 androidx-lifecycle = "2.8.3"
@@ -22,7 +22,7 @@ landscapist = "2.4.2"
 koin = "4.0.0"
 koinCompose = "4.0.0"
 ktor = "3.0.0"
-kotlinxDatetime = "0.6.0"
+kotlinxDatetime = "0.6.1"
 
 coroutines = "1.9.0"
 
