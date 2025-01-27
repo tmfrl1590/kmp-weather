@@ -26,6 +26,7 @@ class HomeViewModel(
                 val result = weatherRepository.getWeatherInfo(lat, lon)
                 _getWeatherInfoList.value = UIState.Success(result)
             } catch (e: Exception){
+                e.printStackTrace()
                 _getWeatherInfoList.value = UIState.Error()
             }
         }
